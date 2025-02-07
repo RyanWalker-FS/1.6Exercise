@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   reactStrictMode: true,
+  basePath: "/1.6Exercise",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
