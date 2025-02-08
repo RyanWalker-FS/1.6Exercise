@@ -28,7 +28,7 @@ export default async function BlogPost({ params }) {
   const post = await getPostData(slug); // Fetch post data based on slug
 
   return (
-    <article className="prose bg-gray-900 text-green-400 p-6 rounded-lg shadow-md">
+    <article className="prose bg-black-400 text-green-400 p-6 rounded-lg shadow-md">
       <h1 className="text-2xl font-bold mb-4">{slug}</h1>
       {/* Render markdown content */}
       <ReactMarkdown>{post.content}</ReactMarkdown>
