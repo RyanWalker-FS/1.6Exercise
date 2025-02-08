@@ -11,9 +11,11 @@
     "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.3"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
