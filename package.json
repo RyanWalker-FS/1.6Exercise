@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export"
+    "deploy": "next build && output=export"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
