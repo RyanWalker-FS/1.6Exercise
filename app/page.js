@@ -1,12 +1,10 @@
-import Image from "next/image";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import DeployApi from "./deployapi";
 export default function Home() {
   return (
     <div>
-      <main>
-        <h1>Exercise 1.6</h1>
-      </main>
-      <footer></footer>
+      <DeployApi />
     </div>
   );
 }
