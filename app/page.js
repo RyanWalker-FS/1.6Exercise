@@ -1,11 +1,9 @@
-import DeployApi from "./deployapi";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import DeployApi from "./pages/deployapi";
 export default function Home() {
   return (
-    <div>
-      <h1>Exercise 1.6</h1>
-      <button>
-        <DeployApi />
-      </button>
-    </div>
+    <button>
+      <DeployApi />
+    </button>
   );
 }
