@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div>
       <h1>Exercise 1.6</h1>
-      <button src="/deployapi">
+      <ul>
         <DeployApi />
-      </button>
+      </ul>
     </div>
   );
 }
